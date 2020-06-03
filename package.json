@@ -1,0 +1,14 @@
+{
+  "name": "front-class",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:nayarahilton/front-class.git",
+  "author": "Nayara Hilton <hilton@work.co>",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.26.7"
+  },
+  "scripts": {
+    "start": "browser-sync start --server --files '*.html, *.css, *.js'"
+  }
+}
